@@ -1,0 +1,15 @@
+{
+    "c_name": "East Vantage Pvt Ltd",
+    "depts": [
+        {
+            "dept_name": "Information Technology",
+            "employees": [
+                {
+                    "emp_name": "Akshay Soner",
+                    "emp_id": "101",
+                    "title": "Data Scientist"
+                }
+            ]
+        }
+    ]
+}
