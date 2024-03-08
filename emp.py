@@ -1,5 +1,9 @@
+
+# Importing Library
+
 import json
 
+# Creating Classes department, Employee, Company
 
 class Department:
     def __init__(self, dept_name):
@@ -63,7 +67,7 @@ def save_data(company):
                 for dept in company.depts.values()
             ]
         }
-        json.dump(data, file, indent=4)
+        json.dump(data, file, indent = 4)
 
 # Function to load company data from a JSON file
 def load_data():
@@ -156,7 +160,7 @@ def main():
             print("Exiting from the menu")
             break
         else:
-            print("Invalid choice. Please try again.")
+            print("Invalid Option Selected. Please Select form [1 to 8] Numeric Values.")
 
 
 if __name__ == "__main__":
